@@ -29,5 +29,11 @@ final approuter = GoRouter(
       name: ProgreesScreen.name,
       builder: (context, state) => const ProgreesScreen(),
     ),
+
+    GoRoute(
+      path: '/snackbars',
+      name: SnackbarScreen.name,
+      builder: (context, state) => const SnackbarScreen(),
+    ),
   ],
 );
