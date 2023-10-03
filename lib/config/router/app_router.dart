@@ -23,5 +23,11 @@ final approuter = GoRouter(
       name: CardsScreen.name,
       builder: (context, state) => const CardsScreen(),
     ),
+
+    GoRoute(
+      path: '/progress',
+      name: ProgreesScreen.name,
+      builder: (context, state) => const ProgreesScreen(),
+    ),
   ],
 );
