@@ -41,5 +41,11 @@ final approuter = GoRouter(
       name: AnimatedScreen.name,
       builder: (context, state) => const AnimatedScreen(),
     ),
+
+    GoRoute(
+      path: '/ui-controls',
+      name: UiControlsScreen.name,
+      builder: (context, state) => const UiControlsScreen(),
+    ),
   ],
 );
