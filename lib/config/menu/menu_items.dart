@@ -43,7 +43,7 @@ const appMenuItems = <MenuItem>[
     ),
 
     MenuItem(
-    title: 'Animated conteiner', 
+    title: 'Animated container', 
     subTitle: 'Statetful widget animado', 
     link: '/animated', 
     icon: Icons.check_box_outline_blank_rounded
